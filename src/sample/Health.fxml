@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label alignment="CENTER" prefHeight="71.0" prefWidth="1200.0" style="-fx-background-color: white;" text="CoronaVirus-2019 Visulizer ">
+            <font>
+                <Font name="Times New Roman" size="72.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutY="70.0" prefHeight="605.0" prefWidth="1200.0" style="-fx-background-color: #2e2929;">
+            <children>
+                <Button fx:id="HealthButton" layoutX="307.0" layoutY="464.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="587.0" text="Лечение">
+                    <font>
+                        <Font name="Trebuchet MS" size="30.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+         <ToolBar layoutX="-4.0" prefHeight="37.0" prefWidth="136.0" style="-fx-background-color: white;">
+             <items>
+                 <Button fx:id="BackButton" mnemonicParsing="false" text="Back" />
+             </items>
+         </ToolBar>
+    </children>
+</AnchorPane>
